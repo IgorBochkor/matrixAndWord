@@ -2,8 +2,8 @@ package matrix;
 
 public class Main {
     private int firstParametrCell;
-    private int firstTemp;
     private int secondParametrCell;
+    private int firstTemp;
     private int secondTemp;
 
     public String matrixAndWord(String squareMatrix, String word) {

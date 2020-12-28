@@ -57,11 +57,11 @@ public class Main {
         return root * 10 % 10 == 0;
     }
 
-    public boolean isFirstLargerThenSecond(String first, String second) {
-        return first.length() > second.length();
-    }
-
     public boolean isOnlyLowerCase(String word, String secondWord) {
         return word.matches("[A-Z]+") && secondWord.matches("[A-Z]+");
+    }
+
+    public boolean isFirstLargerThenSecond(String first, String second) {
+        return first.length() > second.length();
     }
 }
